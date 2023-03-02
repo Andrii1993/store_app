@@ -1,0 +1,64 @@
+@import '../../global_scss/global_style.scss';
+@import '../../global_scss/mixins.scss';
+@import '../../global_scss/vars.scss';
+
+.product_container {
+  display: flex;
+  margin: 50px 0;
+}
+
+.product_info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product_img {
+  width: 50%;
+  height: 50%;
+}
+.product_select {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+
+.info h2, .product_select h2 {
+  font-family: $Bodoni-Italic;
+  color: $accent-background-color;
+  @include font-value(700, 30px, 34px);
+}
+
+.info p {
+  ont-family: $Bodoni-Italic;
+  color: $accent-background-color;
+  @include font-value(500, 16px, 28px);
+}
+
+.select_product {
+  background-color: $accent-background-color;
+  border-radius: 5px;
+  border: none;
+  margin-top: 30px;
+  @include font-value(600, 14px, 22px);
+  color: white;
+  padding: 10px;
+}
+
+.add_to_cart_button {
+  background-color: $accent-background-color;
+  border-radius: 5px;
+  border: none;
+  margin-top: 22px;
+  @include font-value(600, 14px, 22px);
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.add_to_cart_button p {
+  color: white;
+  margin-left: 15px;
+}
+

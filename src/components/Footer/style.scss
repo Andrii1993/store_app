@@ -1,0 +1,33 @@
+@import '../../global_scss/global_style.scss';
+@import '../../global_scss/mixins.scss';
+@import '../../global_scss/vars.scss';
+
+.footer {
+  height: 100px;
+  background-color: $accent-background-color;
+}
+
+.footer_logo {
+  width: 200px;
+  background-color: $accent-color;
+  height: 100px;
+  align-items: center;
+  text-align: center;
+  padding-top: 15px ;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer_title {
+  font-family: $Bodoni-Italic;
+  color: white;
+  @include font-value(700, 20px, 25px);
+}
+
+.footer_media {
+  margin-left: 30px;
+}

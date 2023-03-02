@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "productName": "Parking sensors",
+    "price": "1.756",
+    "imgURL": "https://content.rozetka.com.ua/goods/images/big/160179109.jpg",
+    "productArticle": 100156,
+    "productColor": "black",
+    "popularity": 85
+  },
+  {
+    "id": 2,
+    "productName": "Camera universal",
+    "price": "1.189",
+    "imgURL": "https://elauto.com.ua/wa-data/public/shop/products/09/40/4009/images/8091/8091.970.jpg",
+    "productArticle": 44863,
+    "productColor": "black",
+    "popularity": 45
+  },
+  {
+    "id": 3,
+    "productName": "Video recorder",
+    "price": "3.949",
+    "imgURL": "https://content2.rozetka.com.ua/goods/images/big/72621960.jpg",
+    "productArticle": 2666016,
+    "productColor": "black",
+    "popularity": 60
+  },
+  {
+    "id": 4,
+    "productName": "Video recorder",
+    "price": "4.245",
+    "imgURL": "https://aspiring.ua/wp-content/uploads/2021/08/maxi_3_1.1.png",
+    "productArticle": 545964,
+    "productColor": "silver",
+    "popularity": 10
+  },
+  {
+    "id": 5,
+    "productName": "GPS-traacker Starline",
+    "price": "5.525",
+    "imgURL": "https://mircaraudio.com/getimg.php?file=store/image0_33447.jpg&w=750&h=750&rand=650",
+    "productArticle": 177582,
+    "productColor": "white",
+    "popularity": 30
+  },
+  {
+    "id": 6,
+    "productName": "Navigation Navitel",
+    "price": "2.415",
+    "imgURL": "https://i.citrus.world/imgcache/size_800/uploads/shop/0/e/0e7466f210a559e7776ec7c9aea2fa8f.jpg",
+    "productArticle": 209524,
+    "productColor": "black",
+    "popularity": 100
+  },
+  {
+    "id": 7,
+    "productName": "Speakerphone Parrot",
+    "price": "9.778",
+    "imgURL": "https://f.428.ua/img/1642037/3000/2000/gromkaya_svyaz_parrot_asteroid_mini~841~484.jpg",
+    "productArticle": 88642,
+    "productColor": "silver",
+    "popularity": 73
+  },
+  {
+    "id": 8,
+    "productName": "Anti-radar SHO-ME",
+    "price": "7.999",
+    "imgURL": "https://content1.rozetka.com.ua/goods/images/big/165077604.jpg",
+    "productArticle": 558144,
+    "productColor": "black",
+    "popularity": 95
+  },
+  {
+    "id": 9,
+    "productName": "Anti-radar Stinger",
+    "price": "4.868",
+    "imgURL": "https://content.rozetka.com.ua/goods/images/big/45469803.jpg",
+    "productArticle": 10409,
+    "productColor": "silver/black",
+    "popularity": 54
+  },
+  {
+    "id": 10,
+    "productName": "Car battery VARTA",
+    "price": "2.797",
+    "imgURL": "https://content2.rozetka.com.ua/goods/images/big/12538959.jpg",
+    "productArticle": 42623,
+    "productColor": "silver",
+    "popularity": 62
+  },
+  {
+    "id": 11,
+    "productName": "Car battery EXIDE",
+    "price": "2.742",
+    "imgURL": "https://content1.rozetka.com.ua/goods/images/big/192100113.jpg",
+    "productArticle": 154024,
+    "productColor": "silver/black",
+    "popularity": 71
+  },
+  {
+    "id": 12,
+    "productName": "Car battery Bosch",
+    "price": "2.792",
+    "imgURL": "https://content.rozetka.com.ua/goods/images/big/65724277.jpg",
+    "productArticle": 38369,
+    "productColor": "silver/black",
+    "popularity": 98
+  }
+]

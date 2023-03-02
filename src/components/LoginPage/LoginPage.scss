@@ -1,0 +1,242 @@
+@import '../../global_scss/vars.scss';
+@import '../../global_scss/mixins.scss';
+@import '../../global_scss/global_style.scss';
+
+.breadcrumbs_login {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: -5px;
+  @media (max-width: 1200px){
+    margin-left: 115px;
+  }
+  @media (max-width: 768px){
+    margin-left: 30px;
+  }
+}
+.registration__container {
+
+  @media (max-width: 1200px){
+    margin-left: 115px;
+    margin-right: 100px;
+  }
+  @media (max-width: 768px){
+    margin-left: 30px;
+    margin-right: 50px;
+  }
+  @media (max-width: 320px){
+    margin-right: 35px;
+  }
+}
+
+.login__container {
+  padding-left: 75px;
+  font-family: $main-font;
+  @include font-value(400, 16px, 140%);
+  color: #B5ABAA;
+  span {
+    font-family: $main-font;
+    @include font-value(400, 16px, 140%);
+    color: #635c5b;
+  }
+}
+
+.registration__form {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  padding: 40px 50px;
+  border-radius: 15px;
+  border: 1px solid $accent-background-color;
+  @media screen and (max-width: $desktop-size) {
+    padding: 30px 40px;
+  }
+  @media screen and (max-width: $mobile-size) {
+    padding: 10px 10px;
+  }
+}
+
+.registration__section-title {
+  @include font-value(500, 30px, 30px);
+  color: $accent-background-color;
+  font-family: $Bodoni-Italic;
+  @media (max-width:$desktop-size) {
+    @include font-value(500, 24px, 24px);
+
+  }
+  @media (max-width:$mobile-size) {
+    @include font-value(500, 20px, 22px);
+  }
+
+}
+
+.registration__section-input {
+  width: 100%;
+  margin-top: 20px;
+  margin-right: 50px;
+  border: 1px solid #EDE8E7;
+  border-radius: 10px;
+  padding: 15px;
+
+}
+
+.registration__section-field{
+  color: $accent-background-color;
+  font-family: $Bodoni-Italic;
+  @include font-value(600, 16px, 24px);
+  margin-top: 15px;
+}
+
+#registration__section-input {
+  margin-top: 5px;
+  margin-right: 50px;
+  border: 1px solid #EDE8E7;
+  padding: 15px 748px 15px 10px;
+  font-family: $secondary-font;
+  display: flex;
+  position: relative;
+
+}
+
+.registration__show-hide{
+  display: flex;
+  align-items: center;
+  label {
+    width: 100%;
+  }
+  &__icon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 60px;
+    right: 30px;
+    cursor: pointer;
+  }
+}
+
+#hide_show {
+  position: absolute;
+  right: 16px;
+  bottom: 6px;
+  cursor: pointer;
+  border: none;
+}
+
+
+#hide_show-mistake {
+  position: absolute;
+  right: 16px;
+  bottom: 36px;
+  cursor: pointer;
+  border: none;
+}
+.login__registration-error {
+  text-align: center;
+  padding: 10px;
+  color:$accent-color ;
+}
+
+.login__registration-btn-position {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.login__registration-section {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  margin-top: 15px;
+  @media screen and (max-width: $mobile-size) {
+    justify-content: center;
+  }
+
+}
+
+.login__registration-title {
+  color: $accent-background-color;
+  font-family: $Bodoni-Italic;
+  @include font-value(600, 16px, 150%);
+  margin-right: 10px;
+}
+
+.login__registration-link {
+  font-family: $Bodoni-Italic;
+  @include font-value(700, 16px, 150%);
+  color: #004C3F;
+  cursor: pointer;
+}
+
+.login__section-btn {
+  display: flex;
+  justify-content: end;
+  @media screen and (max-width: $mobile-size) {
+    justify-content: center;
+  }
+}
+
+// ------ //
+
+.pass-strength {
+  display: flex;
+  align-items: center;
+  margin-top: 3px;
+}
+
+.strength-label {
+  font-size: 12px;
+  margin-left: 10px;
+}
+.strength-percent {
+  flex: 1;
+  height: 5px;
+  border-radius: 10px;
+  display: block;
+  background: #eee;
+}
+
+.strength-percent span {
+  display: block;
+  height: 100%;
+  transition: all 0.4s;
+  border-radius: 10px;
+}
+
+.weak {
+  background: red;
+  width: 30%;
+}
+
+.average {
+  background: #ffd000;
+  width: 50%;
+}
+
+.strong {
+  background: green;
+  width: 100%;
+}
+
+.toggle-icon-active{
+  font-size:27px;
+}
+.toggle-icon-passive{
+  font-size:25px;
+}
+
+// ------ //
+
+.section__btn-checkout {
+  padding: 10px 30px;
+  border: none;
+  background-color: $accent-background-color;
+  border-radius: 5px;
+  font-family: $Bodoni-Italic;
+  color: white;
+  @include font-value(700, 14px, 24px);
+  cursor: pointer;
+  //margin: 15px 0;
+
+}
+
